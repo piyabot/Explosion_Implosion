@@ -62,6 +62,7 @@
     <Compile Include="Assets\Script\Player\MouseLook.cs" />
     <Compile Include="Assets\Script\Player\GrenadeThrower.cs" />
     <Compile Include="Assets\Script\Object\Grenade.cs" />
+    <Compile Include="Assets\Script\NPC\NPC.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
