@@ -5,20 +5,32 @@ using UnityEngine;
 public class GrenadeThrower : MonoBehaviour
 {
     public float throwForce = 40f;
-    public GameObject grenadePrefab;
+    public GameObject Lethalgrenade;
+    public GameObject NonLethalgrenade;
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.G))
         {
-            ThrowGrenade();
+            ThrowLethal();
+        }
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            ThrowNonLethal();
         }
     }
 
-    void ThrowGrenade()
+    void ThrowLethal()
     {
-        GameObject grenade = Instantiate(grenadePrefab, transform.position, transform.rotation);
+        GameObject grenade = Instantiate(Lethalgrenade, transform.position, transform.rotation);
+        Rigidbody rb = grenade.GetComponent<Rigidbody>();
+        rb.AddForce(transform.forward * throwForce, ForceMode.VelocityChange);
+    }
+
+    void ThrowNonLethal()
+    {
+        GameObject grenade = Instantiate(NonLethalgrenade, transform.position, transform.rotation);
         Rigidbody rb = grenade.GetComponent<Rigidbody>();
         rb.AddForce(transform.forward * throwForce, ForceMode.VelocityChange);
     }

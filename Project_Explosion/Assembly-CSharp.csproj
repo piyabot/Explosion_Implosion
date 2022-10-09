@@ -56,13 +56,15 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\NPC\NPC.cs" />
     <Compile Include="Assets\Script\Player\PickUpController.cs" />
     <Compile Include="Assets\Script\Player\PlayerController.cs" />
     <Compile Include="Assets\Script\Object\Destruction.cs" />
     <Compile Include="Assets\Script\Player\MouseLook.cs" />
     <Compile Include="Assets\Script\Player\GrenadeThrower.cs" />
-    <Compile Include="Assets\Script\Object\Grenade.cs" />
-    <Compile Include="Assets\Script\NPC\NPC.cs" />
+    <Compile Include="Assets\Script\Object\Lethal_Grenade.cs" />
+    <Compile Include="Assets\Script\NPC\Sleep.cs" />
+    <Compile Include="Assets\Script\Object\Nonlethal_Grenade.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

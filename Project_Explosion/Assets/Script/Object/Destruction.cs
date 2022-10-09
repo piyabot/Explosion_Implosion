@@ -8,7 +8,7 @@ public class Destruction : MonoBehaviour
 
     public void Destroy()
     {
-        Instantiate(destroyed, transform.position, transform.rotation);
         Destroy(gameObject);
+        Instantiate(destroyed, transform.position, transform.rotation);
     }
 }

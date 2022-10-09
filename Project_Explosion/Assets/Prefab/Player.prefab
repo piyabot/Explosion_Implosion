@@ -31,6 +31,37 @@ Transform:
   m_Father: {fileID: 8364180907968947077}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8212762221081975490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5880645266499746777}
+  m_Layer: 0
+  m_Name: LeftHand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5880645266499746777
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8212762221081975490}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.294, y: -0.654, z: 1.965}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8364180907968947077}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8364180907283965367
 GameObject:
   m_ObjectHideFlags: 0
@@ -167,7 +198,7 @@ GameObject:
   - component: {fileID: 8364180907737359357}
   - component: {fileID: 8364180907737359356}
   m_Layer: 0
-  m_Name: Hand
+  m_Name: RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -201,7 +232,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   throwForce: 15
-  grenadePrefab: {fileID: 6667353320723663568, guid: 685e37a6645be56459867c0b3c6f4971,
+  Lethalgrenade: {fileID: 6667353320723663568, guid: 685e37a6645be56459867c0b3c6f4971,
+    type: 3}
+  NonLethalgrenade: {fileID: 6667353320723663568, guid: 15946b8afb623374eb0047b6788f5bba,
     type: 3}
 --- !u!1 &8364180907968947072
 GameObject:
@@ -215,6 +248,7 @@ GameObject:
   - component: {fileID: 8364180907968947074}
   - component: {fileID: 8364180907968947075}
   - component: {fileID: 8364180907968947076}
+  - component: {fileID: 5447994668187678614}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -236,6 +270,7 @@ Transform:
   m_Children:
   - {fileID: 8364180907737359357}
   - {fileID: 2916958138361324369}
+  - {fileID: 5880645266499746777}
   m_Father: {fileID: 8364180907283965371}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -304,3 +339,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseSensitivity: 850
   playerBody: {fileID: 8364180907283965371}
+--- !u!114 &5447994668187678614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8364180907968947072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086a2db183d31f54bb136bfb21657819, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  holdArea: {fileID: 5880645266499746777}
+  pickupRange: 20
+  pickupForce: 250
+  throwForce: 1000

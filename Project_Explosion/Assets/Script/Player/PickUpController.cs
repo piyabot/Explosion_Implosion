@@ -4,54 +4,73 @@ using UnityEngine;
 
 public class PickUpController : MonoBehaviour
 {
-    float throwForce = 1000;
-    Vector3 objectPos;
-    float distance;
+    [SerializeField] Transform holdArea;
+    private GameObject heldObj;
+    private Rigidbody heldObjRB;
 
-    public bool canHold = true;
-    public GameObject item;
-    public GameObject temParent;
-    public bool isHolding = false;
+    [SerializeField] private float pickupRange = 8.0f;
+    [SerializeField] private float pickupForce = 150.0f;
+    [SerializeField] private float throwForce = 1000;
 
     // Update is called once per frame
     void Update()
     {
-        distance = Vector3.Distance(item.transform.position, temParent.transform.position);
-        if (distance >= 10f)
+        if (Input.GetMouseButtonDown(0))
         {
-            isHolding = false;
-        }
-        if(isHolding == true)
-        {
-            item.GetComponent<Rigidbody>().velocity = Vector3.zero;
-            item.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
-            item.transform.SetParent(temParent.transform);
-            if (Input.GetMouseButtonDown(1))
+            if (heldObj == null)
             {
-                item.GetComponent<Rigidbody>().AddForce(temParent.transform.forward * throwForce);
-                isHolding = false;
+                RaycastHit hit;
+                if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, pickupRange))
+                {
+                    PickUpObject(hit.transform.gameObject);
+                }
+            }
+            else
+            {
+                DropObject();
             }
         }
-        else
+        if (heldObj != null)
         {
-            objectPos = item.transform.position;
-            item.transform.SetParent(null);
-            item.GetComponent<Rigidbody>().useGravity = true;
-            item.transform.position = objectPos;
+            MoveObject();
+        }
+        if (Input.GetMouseButtonDown(1))
+        {
+            heldObj.GetComponent<Rigidbody>().AddForce(transform.forward * throwForce);
+            DropObject();
         }
     }
 
-    void OnMouseDown()
+    void PickUpObject(GameObject pickObj)
     {
-        if (distance <= 10f)
+        if (pickObj.GetComponent<Rigidbody>())
         {
-            isHolding = true;
-            item.GetComponent<Rigidbody>().useGravity = false;
-            item.GetComponent<Rigidbody>().detectCollisions = true;
+            heldObjRB = pickObj.GetComponent<Rigidbody>();
+            heldObjRB.velocity = Vector3.zero;
+            heldObjRB.angularVelocity = Vector3.zero;
+            heldObjRB.useGravity = false;
+            heldObjRB.drag = 10;
+            //heldObjRB.constraints = RigidbodyConstraints.FreezePosition;
+            heldObjRB.transform.parent = holdArea;
+            heldObj = pickObj;
         }
     }
-    void OnMouseUp()
+
+    void MoveObject()
     {
-        isHolding = false;
+        if (Vector3.Distance(heldObj.transform.position, holdArea.position) > 0.1f)
+        {
+            Vector3 moveDirection = (holdArea.position - heldObj.transform.position);
+            heldObjRB.AddForce(moveDirection * pickupForce);
+        }
+    }
+
+    void DropObject()
+    {
+        heldObjRB.useGravity = true;
+        heldObjRB.drag = 1;
+        //heldObjRB.constraints = RigidbodyConstraints.FreezePosition;
+        heldObjRB.transform.parent = null;
+        heldObj = null;
     }
 }
