@@ -62,9 +62,9 @@
     <Compile Include="Assets\Script\Object\Destruction.cs" />
     <Compile Include="Assets\Script\Player\MouseLook.cs" />
     <Compile Include="Assets\Script\Player\GrenadeThrower.cs" />
-    <Compile Include="Assets\Script\Object\Lethal_Grenade.cs" />
-    <Compile Include="Assets\Script\NPC\Sleep.cs" />
     <Compile Include="Assets\Script\Object\Nonlethal_Grenade.cs" />
+    <Compile Include="Assets\Script\NPC\Sleep.cs" />
+    <Compile Include="Assets\Script\Object\Lethal_Grenade.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
