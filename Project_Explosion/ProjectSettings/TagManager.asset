@@ -7,6 +7,8 @@ TagManager:
   - Shootable
   - Lethal
   - Non-Lethal
+  - Grenade
+  - Music
   layers:
   - Default
   - TransparentFX
@@ -14,7 +16,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - DestroyedObject
   - 
   - Lighting
   - Ground

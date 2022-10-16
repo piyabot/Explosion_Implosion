@@ -65,6 +65,10 @@
     <Compile Include="Assets\Script\Object\Nonlethal_Grenade.cs" />
     <Compile Include="Assets\Script\NPC\Sleep.cs" />
     <Compile Include="Assets\Script\Object\Lethal_Grenade.cs" />
+    <Compile Include="Assets\Script\Manager\MenuManager.cs" />
+    <Compile Include="Assets\Script\Manager\BGM.cs" />
+    <Compile Include="Assets\Script\Object\Barrel_Explosion.cs" />
+    <Compile Include="Assets\Script\Object\Hard_Destruction.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

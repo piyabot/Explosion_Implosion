@@ -46,7 +46,13 @@ public class Lethal_Grenade : MonoBehaviour
             Destruction dest = nearbyObject.GetComponent<Destruction>();
             if (dest != null)
             {
-                dest.Destroy();
+                dest.Destroy();            
+            }
+
+            Barrel_Explosion explode = nearbyObject.GetComponent<Barrel_Explosion>();
+            if (explode != null)
+            {
+                explode.Barrel_Explode();
             }
         }
 
