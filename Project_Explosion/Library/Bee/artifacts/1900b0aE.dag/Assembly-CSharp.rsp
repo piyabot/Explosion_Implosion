@@ -361,11 +361,13 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Script/Information.cs"
 "Assets/Script/Manager/BGM.cs"
 "Assets/Script/Manager/MenuManager.cs"
 "Assets/Script/NPC/NPC.cs"
 "Assets/Script/NPC/Sleep.cs"
 "Assets/Script/Object/Barrel_Explosion.cs"
+"Assets/Script/Object/C4.cs"
 "Assets/Script/Object/Destruction.cs"
 "Assets/Script/Object/Hard_Destruction.cs"
 "Assets/Script/Object/Lethal_Grenade.cs"
@@ -374,6 +376,8 @@
 "Assets/Script/Player/MouseLook.cs"
 "Assets/Script/Player/PickUpController.cs"
 "Assets/Script/Player/PlayerController.cs"
+"Assets/Script/Player/Tutorial.cs"
+"Assets/Script/Sky.cs"
 -langversion:9.0
 
 /deterministic

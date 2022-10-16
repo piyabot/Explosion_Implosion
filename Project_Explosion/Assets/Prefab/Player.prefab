@@ -77,7 +77,7 @@ GameObject:
   - component: {fileID: 8364180907283965370}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -354,4 +354,4 @@ MonoBehaviour:
   holdArea: {fileID: 5880645266499746777}
   pickupRange: 20
   pickupForce: 250
-  throwForce: 1000
+  throwForce: 2000

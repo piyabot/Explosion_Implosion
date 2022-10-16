@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2966165509727531558}
   - component: {fileID: 8036304366734847670}
   - component: {fileID: 8036304366734847669}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: shard14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129,7 +129,7 @@ GameObject:
   - component: {fileID: 6687698503279576608}
   - component: {fileID: 8036304366434840329}
   - component: {fileID: 8036304366434840328}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: shard25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -245,7 +245,7 @@ GameObject:
   - component: {fileID: 3819789379722224131}
   - component: {fileID: 8036304367188355357}
   - component: {fileID: 8036304367188355356}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: shard21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -361,7 +361,7 @@ GameObject:
   - component: {fileID: 120194311090051376}
   - component: {fileID: 8036304366612213057}
   - component: {fileID: 8036304366612213056}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: shard8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -477,7 +477,7 @@ GameObject:
   - component: {fileID: 7004846619477865082}
   - component: {fileID: 8036304366713292339}
   - component: {fileID: 8036304366713292338}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: shard2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -593,7 +593,7 @@ GameObject:
   - component: {fileID: 2692361519787867649}
   - component: {fileID: 8036304367113418550}
   - component: {fileID: 8036304367113418549}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: shard18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -709,7 +709,7 @@ GameObject:
   - component: {fileID: 1310464449410352915}
   - component: {fileID: 8036304366776674391}
   - component: {fileID: 8036304366776674390}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: shard13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -825,7 +825,7 @@ GameObject:
   - component: {fileID: 7286684739657003488}
   - component: {fileID: 8036304365678977380}
   - component: {fileID: 8036304365678977387}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: shard10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -941,7 +941,7 @@ GameObject:
   - component: {fileID: 2347597766245541747}
   - component: {fileID: 8036304366898690828}
   - component: {fileID: 8036304366898690835}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: shard5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1057,7 +1057,7 @@ GameObject:
   - component: {fileID: 9116001379316019869}
   - component: {fileID: 8036304366997488992}
   - component: {fileID: 8036304366997488999}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: shard23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1173,7 +1173,7 @@ GameObject:
   - component: {fileID: 2026140504505327075}
   - component: {fileID: 8036304365644215215}
   - component: {fileID: 8036304365644215214}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: shard15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1289,7 +1289,7 @@ GameObject:
   - component: {fileID: 5918964256510131481}
   - component: {fileID: 8036304366217256668}
   - component: {fileID: 8036304366217256675}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: shard4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1405,7 +1405,7 @@ GameObject:
   - component: {fileID: 2252700193439829464}
   - component: {fileID: 8036304366787144552}
   - component: {fileID: 8036304366787144559}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: shard19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1521,7 +1521,7 @@ GameObject:
   - component: {fileID: 7829474725951166997}
   - component: {fileID: 8036304367296992823}
   - component: {fileID: 8036304367296992822}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: shard6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1637,7 +1637,7 @@ GameObject:
   - component: {fileID: 4000936900191519227}
   - component: {fileID: 8036304366588757720}
   - component: {fileID: 8036304366588757727}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: shard7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1753,7 +1753,7 @@ GameObject:
   - component: {fileID: 3715563987903614054}
   - component: {fileID: 8036304367142769559}
   - component: {fileID: 8036304367142769558}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: shard9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1869,7 +1869,7 @@ GameObject:
   - component: {fileID: 6759113440940452203}
   - component: {fileID: 8036304365701625060}
   - component: {fileID: 8036304365701625067}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: shard24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1985,7 +1985,7 @@ GameObject:
   - component: {fileID: 981723197061021085}
   - component: {fileID: 8036304366298429816}
   - component: {fileID: 8036304366298429823}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: shard26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2101,7 +2101,7 @@ GameObject:
   - component: {fileID: 3151858183201211705}
   - component: {fileID: 8036304366898690830}
   - component: {fileID: 8036304366898690829}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: shard3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2217,7 +2217,7 @@ GameObject:
   - component: {fileID: 1318771268562583506}
   - component: {fileID: 8036304367040586340}
   - component: {fileID: 8036304367040586347}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: shard20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2333,7 +2333,7 @@ GameObject:
   - component: {fileID: 8641130948196647138}
   - component: {fileID: 8036304367009925230}
   - component: {fileID: 8036304367009925229}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: shard12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2449,7 +2449,7 @@ GameObject:
   - component: {fileID: 7411948569997024891}
   - component: {fileID: 8036304366898690824}
   - component: {fileID: 8036304366898690831}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: shard1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2565,7 +2565,7 @@ GameObject:
   - component: {fileID: 2274919197326775629}
   - component: {fileID: 8036304367207249029}
   - component: {fileID: 8036304367207249028}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: shard11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2677,7 +2677,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7497377663726116035}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Crack Crate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2693,7 +2693,7 @@ Transform:
   m_GameObject: {fileID: 7153926156640028281}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -5.3558292, y: 1.275, z: 5.461338}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3642964474459697694}
@@ -2738,7 +2738,7 @@ GameObject:
   - component: {fileID: 8520539706880492041}
   - component: {fileID: 8036304367136852444}
   - component: {fileID: 8036304367136852451}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: shard17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2854,7 +2854,7 @@ GameObject:
   - component: {fileID: 2916380449755980310}
   - component: {fileID: 8036304367249848886}
   - component: {fileID: 8036304367249848885}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: shard22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2970,7 +2970,7 @@ GameObject:
   - component: {fileID: 82094528238071773}
   - component: {fileID: 8036304367153774309}
   - component: {fileID: 8036304367153774308}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: shard16
   m_TagString: Untagged
   m_Icon: {fileID: 0}

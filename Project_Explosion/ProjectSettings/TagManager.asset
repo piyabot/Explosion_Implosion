@@ -9,6 +9,8 @@ TagManager:
   - Non-Lethal
   - Grenade
   - Music
+  - Sky
+  - C4
   layers:
   - Default
   - TransparentFX
