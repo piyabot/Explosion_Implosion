@@ -54,6 +54,12 @@ public class Lethal_Grenade : MonoBehaviour
             {
                 explode.Barrel_Explode();
             }
+
+            Citizen citz = nearbyObject.GetComponent<Citizen>();
+            if (citz != null)
+            {
+                citz.citizenDead();
+            }
         }
 
         Collider[] collidersToMove = Physics.OverlapSphere(transform.position, radius);
