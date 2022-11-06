@@ -68,9 +68,10 @@
     <Compile Include="Assets\Script\Sky.cs" />
     <Compile Include="Assets\Script\Object\C4.cs" />
     <Compile Include="Assets\Script\Information.cs" />
-    <Compile Include="Assets\Script\Object\Barrel_Explosion.cs" />
+    <Compile Include="Assets\Script\Object\Hard_Explosion.cs" />
     <Compile Include="Assets\Script\Object\Nonlethal_Grenade.cs" />
     <Compile Include="Assets\Script\NPC\Sleep.cs" />
+    <Compile Include="Assets\Script\Object\LandMine.cs" />
     <Compile Include="Assets\Script\Player\Tutorial.cs" />
     <Compile Include="Assets\Script\Object\Lethal_Grenade.cs" />
     <Compile Include="Assets\Script\NPC\Citizen.cs" />

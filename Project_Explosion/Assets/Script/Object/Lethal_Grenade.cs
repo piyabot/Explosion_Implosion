@@ -49,10 +49,10 @@ public class Lethal_Grenade : MonoBehaviour
                 dest.Destroy();            
             }
 
-            Barrel_Explosion explode = nearbyObject.GetComponent<Barrel_Explosion>();
+            Hard_Explosion explode = nearbyObject.GetComponent<Hard_Explosion>();
             if (explode != null)
             {
-                explode.Barrel_Explode();
+                explode.Hard_Explode();
             }
 
             Citizen citz = nearbyObject.GetComponent<Citizen>();

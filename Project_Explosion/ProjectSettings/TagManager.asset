@@ -11,6 +11,7 @@ TagManager:
   - Music
   - Sky
   - C4
+  - Object
   layers:
   - Default
   - TransparentFX

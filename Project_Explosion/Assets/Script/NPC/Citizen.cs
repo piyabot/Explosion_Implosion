@@ -8,6 +8,7 @@ public class Citizen : MonoBehaviour
     public GameObject citizenCorpse;
     public GameObject CrossHair;
     public GameObject Hand;
+    AudioSource audioSource;
 
     public void citizenDead()
     {
@@ -18,5 +19,11 @@ public class Citizen : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;   
         Destroy(gameObject);
+    }
+
+    public void OnCollisionEnter(Collision collision)
+    {
+        if (collision.relativeVelocity.magnitude > 2)
+            audioSource.Play();
     }
 }
