@@ -38,6 +38,12 @@ public class Hard_Explosion : MonoBehaviour
             {
                 Dest.HardDestroy();
             }
+
+            Dead lose = nearbyObject.GetComponent<Dead>();
+            if (lose != null)
+            {
+                lose.Death();
+            }
         }
 
         Collider[] collidersToMove = Physics.OverlapSphere(transform.position, radius);

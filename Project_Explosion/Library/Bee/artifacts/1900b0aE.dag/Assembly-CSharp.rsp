@@ -374,6 +374,7 @@
 "Assets/Script/Object/LandMine.cs"
 "Assets/Script/Object/Lethal_Grenade.cs"
 "Assets/Script/Object/Nonlethal_Grenade.cs"
+"Assets/Script/Player/Dead.cs"
 "Assets/Script/Player/GrenadeThrower.cs"
 "Assets/Script/Player/MouseLook.cs"
 "Assets/Script/Player/PickUpController.cs"

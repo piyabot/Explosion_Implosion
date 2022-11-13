@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1107648031371192499}
   - component: {fileID: 2935185108197088377}
   - component: {fileID: 4574050749804708089}
-  - component: {fileID: 4574050749804708091}
+  - component: {fileID: 6655704199076931111}
   m_Layer: 0
   m_Name: Metal_Door
   m_TagString: Untagged
@@ -98,7 +98,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.265, y: 2.0170135, z: 0.26305604}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4574050749804708091
+--- !u!114 &6655704199076931111
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,8 +107,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 3727611864880070060}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68c35def2c2b0934d8353ef87d079876, type: 3}
+  m_Script: {fileID: 11500000, guid: 825533014c142874bb213dc7d94c9805, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destroyed: {fileID: 1770118175063727048, guid: dcfbd23115758484a8ebe0339a50d7b1,
+  destroyed: {fileID: 1770118175063727048, guid: 43f0c1be23d2bcd48a051ea03862c5b1,
     type: 3}

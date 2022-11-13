@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7818960890227252988}
   - component: {fileID: 8881962823384056442}
   - component: {fileID: 3293183974229140780}
+  - component: {fileID: 8915867057555364548}
   m_Layer: 0
   m_Name: C4_Stick
   m_TagString: Untagged
@@ -194,3 +195,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8915867057555364548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8611581712235069225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a3336c437a30194681c5963f6d49d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sleep: {fileID: 9073117110615039751, guid: fac9c0eeeb16f654eadb704c607e4169, type: 3}

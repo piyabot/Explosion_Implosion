@@ -75,6 +75,7 @@
     <Compile Include="Assets\Script\Player\Tutorial.cs" />
     <Compile Include="Assets\Script\Object\Lethal_Grenade.cs" />
     <Compile Include="Assets\Script\NPC\Citizen.cs" />
+    <Compile Include="Assets\Script\Player\Dead.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
