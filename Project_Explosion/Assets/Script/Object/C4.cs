@@ -23,6 +23,21 @@ public class C4 : MonoBehaviour
     public void C4_Explode()
     {
         Instantiate(explosionEffect, transform.position, transform.rotation);
+        Collider[] collidersToDestroy = Physics.OverlapSphere(transform.position, radius);
+        foreach (Collider nearbyObject in collidersToDestroy)
+        {
+            Destruction dest = nearbyObject.GetComponent<Destruction>();
+            if (dest != null)
+            {
+                dest.Destroy();
+            }
+
+            Hard_Explosion explode = nearbyObject.GetComponent<Hard_Explosion>();
+            if (explode != null)
+            {
+                explode.Hard_Explode();
+            }
+        }
 
         Destroy(gameObject);
     }

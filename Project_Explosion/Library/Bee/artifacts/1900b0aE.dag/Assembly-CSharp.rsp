@@ -374,6 +374,7 @@
 "Assets/Script/Object/LandMine.cs"
 "Assets/Script/Object/Lethal_Grenade.cs"
 "Assets/Script/Object/Nonlethal_Grenade.cs"
+"Assets/Script/Object/Plane.cs"
 "Assets/Script/Player/Dead.cs"
 "Assets/Script/Player/GrenadeThrower.cs"
 "Assets/Script/Player/MouseLook.cs"
@@ -381,6 +382,8 @@
 "Assets/Script/Player/PlayerController.cs"
 "Assets/Script/Player/Tutorial.cs"
 "Assets/Script/Sky.cs"
+"Assets/WhiteCity/Textures/Other/Offer/ALIyerEdonAssets_Lighting.cs"
+"Assets/WhiteCity/Textures/Other/Offer/LightingTools_Offer.cs"
 -langversion:9.0
 
 /deterministic
