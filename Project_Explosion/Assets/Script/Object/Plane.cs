@@ -7,12 +7,11 @@ public class Plane : MonoBehaviour
     public GameObject explosionEffect;
     public GameObject building;
     public UnityEngine.AI.NavMeshAgent AI;
-    public CapsuleCollider collision;
     public GameObject Lose;
 
     void Start()
     {
-        building = GameObject.FindWithTag("building");
+        
     }
 
     private void Update()
@@ -30,13 +29,18 @@ public class Plane : MonoBehaviour
         AI.updateRotation = false;
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "building")
+        if (other.gameObject.tag == "Building")
         {
-            Instantiate(explosionEffect, transform.position, transform.rotation);
-            Lose.SetActive(true);
-            { Time.timeScale = 0; }
+            Plane_Explode();
         }
+    }
+
+    public void Plane_Explode()
+    {
+        Instantiate(explosionEffect, transform.position, transform.rotation);
+        Lose.SetActive(true);
+        Destroy(gameObject);
     }
 }

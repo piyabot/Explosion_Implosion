@@ -12,7 +12,7 @@ TagManager:
   - Sky
   - C4
   - Object
-  - building
+  - Building
   layers:
   - Default
   - TransparentFX
