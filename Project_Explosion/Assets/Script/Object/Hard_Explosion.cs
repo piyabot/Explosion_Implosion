@@ -39,6 +39,12 @@ public class Hard_Explosion : MonoBehaviour
                 Dest.HardDestroy();
             }
 
+            Citizen citz = nearbyObject.GetComponent<Citizen>();
+            if (citz != null)
+            {
+                citz.citizenDead();
+            }
+
             Dead lose = nearbyObject.GetComponent<Dead>();
             if (lose != null)
             {

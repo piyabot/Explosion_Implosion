@@ -361,6 +361,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/City/Textures/Other/Offer/ALIyerEdonAssets_Lighting.cs"
+"Assets/City/Textures/Other/Offer/LightingTools_Offer.cs"
 "Assets/Script/Information.cs"
 "Assets/Script/Manager/BGM.cs"
 "Assets/Script/Manager/MenuManager.cs"
@@ -382,8 +384,6 @@
 "Assets/Script/Player/PlayerController.cs"
 "Assets/Script/Player/Tutorial.cs"
 "Assets/Script/Sky.cs"
-"Assets/WhiteCity/Textures/Other/Offer/ALIyerEdonAssets_Lighting.cs"
-"Assets/WhiteCity/Textures/Other/Offer/LightingTools_Offer.cs"
 -langversion:9.0
 
 /deterministic

@@ -8,11 +8,13 @@ public class Citizen : MonoBehaviour
     public GameObject citizenCorpse;
     public GameObject CrossHair;
     public GameObject Hand;
+    public GameObject text;
     AudioSource audioSource;
 
     public void citizenDead()
     {
         Lose.SetActive(true);
+        text.SetActive(false);
         Hand.SetActive(false);
         Instantiate(citizenCorpse, transform.position, transform.rotation);
         CrossHair.SetActive(false);

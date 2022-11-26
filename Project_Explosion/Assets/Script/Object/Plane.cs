@@ -24,7 +24,7 @@ public class Plane : MonoBehaviour
         AI.SetDestination(building.transform.position);
         if (AI.remainingDistance > AI.stoppingDistance)
         {
-            AI.speed = 10;
+            AI.speed = 30;
         }
         AI.updateRotation = false;
     }
@@ -41,6 +41,8 @@ public class Plane : MonoBehaviour
     {
         Instantiate(explosionEffect, transform.position, transform.rotation);
         Lose.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         Destroy(gameObject);
     }
 }

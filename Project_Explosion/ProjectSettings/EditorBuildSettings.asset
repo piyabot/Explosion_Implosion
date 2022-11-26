@@ -9,9 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 16e74055dcbc29e409ce2d365930c77d
   - enabled: 1
-    path: Assets/Scenes/Level_1.unity
+    path: Assets/Scenes/Tutorial_1.unity
     guid: 08357813e46c8a944b25264e659bdbb8
   - enabled: 1
-    path: Assets/Scenes/Level_2.unity
+    path: Assets/Scenes/Find_Bomber.unity
     guid: 57fde159f88a26c4fbe6dbe672eca903
   m_configObjects: {}
