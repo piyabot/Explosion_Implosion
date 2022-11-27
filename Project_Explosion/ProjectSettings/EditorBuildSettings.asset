@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Find_Bomber.unity
     guid: 57fde159f88a26c4fbe6dbe672eca903
+  - enabled: 1
+    path: Assets/Scenes/911.unity
+    guid: 24041f1bea4de2a46a7ed2d7ca6c0697
+  - enabled: 1
+    path: Assets/Scenes/Tutorial_2.unity
+    guid: 96414844d71458d47be2519688eecbc7
+  - enabled: 1
+    path: Assets/Scenes/MineField.unity
+    guid: c1fbfd74ab359f1459107ab71e433f57
   m_configObjects: {}

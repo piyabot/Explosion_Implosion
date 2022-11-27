@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7344136394230207190}
   - component: {fileID: 8226397024098881119}
   - component: {fileID: 8226397024098881116}
+  - component: {fileID: 3199472038077179440}
   m_Layer: 0
   m_Name: LandMine
   m_TagString: Untagged
@@ -98,7 +99,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.06671336, y: 0.062797844, z: 0.03047015}
+  m_Size: {x: 0.1, y: 0.1, z: 0.03}
   m_Center: {x: -0.0012429863, y: 0.0001653701, z: 0.0065362304}
 --- !u!114 &8226397024098881116
 MonoBehaviour:
@@ -114,5 +115,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosionEffect: {fileID: 1121192042590650, guid: 52a8149927df5c34dafbbcdf18509468,
     type: 3}
-  radius: 8
+  radius: 3
   explosionForce: 1000
+--- !u!114 &3199472038077179440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9145510481555075843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 825533014c142874bb213dc7d94c9805, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyed: {fileID: 1121192042590650, guid: 52a8149927df5c34dafbbcdf18509468, type: 3}

@@ -7,7 +7,7 @@ public class MenuManager : MonoBehaviour
 {
     public void Lv1()
     {
-        SceneManager.LoadScene("Level_1");
+        SceneManager.LoadScene("Tutorial_1");
     }
     public void exit()
     {
@@ -16,10 +16,6 @@ public class MenuManager : MonoBehaviour
     public void mainmenu()
     {
         SceneManager.LoadScene("Menu");
-    }
-    public void level_select()
-    {
-        SceneManager.LoadScene("LevelSelect");
     }
     public void retry()
     {

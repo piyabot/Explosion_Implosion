@@ -331,7 +331,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Press G to throw Lethal Grenade
+  m_text: 'Press G to throw Lethal Grenade
+
+    Press R to restart level'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2405,7 +2407,12 @@ PrefabInstance:
     - target: {fileID: 5447994668187678614, guid: cdd6d4f94eb2b3947b5c27d8cf538853,
         type: 3}
       propertyPath: throwForce
-      value: 2500
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 5447994668187678614, guid: cdd6d4f94eb2b3947b5c27d8cf538853,
+        type: 3}
+      propertyPath: pickupForce
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8364180907283965367, guid: cdd6d4f94eb2b3947b5c27d8cf538853,
         type: 3}
@@ -7658,7 +7665,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0, g: 1, b: 0.008504391, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

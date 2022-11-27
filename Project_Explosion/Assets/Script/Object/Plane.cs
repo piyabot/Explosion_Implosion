@@ -25,7 +25,7 @@ public class Plane : MonoBehaviour
         AI.SetDestination(building.transform.position);
         if (AI.remainingDistance > AI.stoppingDistance)
         {
-            AI.speed = 30;
+            AI.speed = 10;
         }
         AI.updateRotation = false;
     }

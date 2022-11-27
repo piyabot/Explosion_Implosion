@@ -5,7 +5,7 @@ using UnityEngine;
 public class C4 : MonoBehaviour
 {
     public GameObject explosionEffect;
-    public float radius = 100f;
+    public float radius = 5f;
     public float explosionForce = 1000f;
 
     private void Start()

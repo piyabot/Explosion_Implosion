@@ -26,7 +26,7 @@ public class LandMine : MonoBehaviour
         {
             LandMine_Explode();
         }
-        if (other.gameObject.tag == "Object")
+        if (other.gameObject.tag == "Defuse")
         {
             LandMine_Explode();
         }
@@ -44,19 +44,21 @@ public class LandMine : MonoBehaviour
             {
                 rb.AddExplosionForce(explosionForce, transform.position, radius);
             }
-
             Destruction dest = nearbyObject.GetComponent<Destruction>();
             if (dest != null)
             {
                 dest.Destroy();
             }
-
             Citizen citz = nearbyObject.GetComponent<Citizen>();
             if (citz != null)
             {
                 citz.citizenDead();
             }
-
+            Hard_Destruction Dest = nearbyObject.GetComponent<Hard_Destruction>();
+            if (Dest != null)
+            {
+                Dest.HardDestroy();
+            }
             Dead lose = nearbyObject.GetComponent<Dead>();
             if (lose != null)
             {

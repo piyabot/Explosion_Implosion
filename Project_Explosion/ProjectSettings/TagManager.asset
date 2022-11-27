@@ -13,6 +13,10 @@ TagManager:
   - C4
   - Object
   - Building
+  - Defuse
+  - Plane
+  - Dick
+  - Win
   layers:
   - Default
   - TransparentFX
