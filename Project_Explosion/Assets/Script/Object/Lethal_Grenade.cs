@@ -5,7 +5,6 @@ using UnityEngine;
 public class Lethal_Grenade : MonoBehaviour
 {
     public float delay = 3f;
-
     public GameObject explosionEffect;
     public float radius = 5f;
     public float explosionForce = 1000f;

@@ -5,6 +5,7 @@ using UnityEngine;
 public class Plane : MonoBehaviour
 {
     public GameObject explosionEffect;
+    public float radius = 5f;
     public GameObject building;
     public UnityEngine.AI.NavMeshAgent AI;
     public GameObject Lose;
@@ -44,5 +45,14 @@ public class Plane : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         Destroy(gameObject);
+        Collider[] collidersToDestroy = Physics.OverlapSphere(transform.position, radius);
+        foreach (Collider nearbyObject in collidersToDestroy)
+        {
+            Hard_Explosion explode = nearbyObject.GetComponent<Hard_Explosion>();
+            if (explode != null)
+            {
+                explode.Hard_Explode();
+            }
+        }
     }
 }
